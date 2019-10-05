@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-#  - title: "Books"
-#    url: /books/
-#  - title: "CV"
-#    url: /cv/
+  - title: "Career"
+    url: /career/
+  - title: "Detailed CV"
+    url: /assets/files/20190218_CV_Dagrada.pdf

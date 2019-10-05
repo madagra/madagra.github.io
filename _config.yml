@@ -78,15 +78,18 @@ plugins:
 author:
   name     : "Mario Dagrada"
   avatar   : "/assets/images/bio-photo-2.jpg"
-  bio      : "Physicist by training, now researcher in cybersecurity. Passionate about technology and innovation, always eager to learn new skills."
+  bio      : "Per aspera ad astra"
   location : "Eindhoven, The Netherlands"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "Linkedn"
+      icon: "fab fa-fw fa-linkedn"
+      url: "https://github.com/madagra"
 
 footer:
   links:
