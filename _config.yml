@@ -83,22 +83,31 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/madagra"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/MarioDagrada"
     - label: "Linkedn"
-      icon: "fab fa-fw fa-linkedn"
-      url: "https://github.com/madagra"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mariodagrada"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/madagra"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/MarioDagrada"
+    - label: "Linkedn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mariodagrada"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en"      
 
 defaults:
   # _posts
