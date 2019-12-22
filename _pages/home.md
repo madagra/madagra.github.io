@@ -22,7 +22,7 @@ never started projects. Occasionally I will also post some reviews or advice on 
 
 I am interested in many topics, but currently I am focusing on the following:
 * **Software architecture**, particularly for distributed applications. In my current
-[company](www.forescout.com) I am working hard for migrating several core components of the product
+[company](https://www.forescout.com) I am working hard for migrating several core components of the product
 portfolio from a monolothic design to a modern, cloud-ready architecture. 
 * **Network security** and in particular how to leverage data mining and machine learning techniques
 for modeling and correlating security events. In a nutshell, my team and I want to make 
@@ -61,11 +61,13 @@ cryptocurrency market. The code will be released open source ASAP.
 
 ## Publications
 
+* D. dos Santos, **M. Dagrada**, E. Costante, _Leveraging Operational Technology and the Internet of Things to Attack Smart Buildings_,
+[arXiv](https://arxiv.org/abs/1912.02480) (2019)
 * M. Sergent, **M. Dagrada**, P. Carribault, J. Jaeger, M. Pérache, G. Papauré,
 _Efficient communication/computation overlap with MPI+OpenMP runtimes collaboration_,
 European Conference on Parallel Processing, 560-572 (2018)
 * **M. Dagrada**, _Improved quantum Monte Carlo simulations: from open to extended systems_, PhD thesis,
-HAL Archives (2017)
+[HAL Archives](https://tel.archives-ouvertes.fr/tel-01478313/document) (2017)
 * **M. Dagrada**, S. Karakuzu, V. Vildosola, S. Sorella, M. Casula, 
 _Exact special twist method for quantum Monte Carlo simulations_, Phys. Rev. B 94, 245108 (2016)
 * B. Busemeyer, **M. Dagrada**, S. Sorella, M. Casula, L. K. Wagner, 

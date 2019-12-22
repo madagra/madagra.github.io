@@ -2,3 +2,4 @@ _site
 Gemfile*
 config_TEMPLATE.yml
 *~
+*.code-workspace
