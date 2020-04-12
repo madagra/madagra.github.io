@@ -29,16 +29,17 @@ for modeling and correlating security events. In a nutshell, my team and I want 
 security analysts' life easier.
 * **Business innovation** and design thinking methods for successfully 
 carry out innovation projects in corporate environment. Despite the wealth of information available,
-corporate innovation has always been a [challenge](https://www.sciencedirect.com/science/article/pii/S000768131400086X). I am involved in defining and implementing a streamlined innovation 
+corporate innovation has always been a [challenge](https://www.sciencedirect.com/science/article/pii/S000768131400086X). 
+I am involved in defining and implementing a streamlined innovation 
 process across my organization.
 
 [comment]: <> (A part from the above, I also try to keep an eye on the hot topics in physics and especially the quantum Monte Carlo community I contributed to during my PhD. And of course deep learning has arrived [there](https://arxiv.org/abs/1909.02487) too.)
 
-Sometimes, I am also brushing up my physics knowledge with a fruitful ongoing
-collaboration with the quantum computing firm [Qu&Co](https://quandco.com/) which develops
-chemistry simulation software for quantum computers. 
+Sometimes, I also love to brush up up my physics studies thanks to a fruitful ongoing
+collaboration with the quantum computing firm [Qu&Co](https://quandco.com/). They develop
+chemistry simulation software for quantum computers and we are building a very exciting platform, stay tuned! 
 
-## Some of my projects
+## Some projects I contributed to
 
 ### qucochemistry
 A [open source library](https://github.com/qu-co/qucochemistry) in Python for compiling 
@@ -49,11 +50,7 @@ and code refactoring. More coming soon.
 ### TurboRVB
 A very efficient and massively parallelized software package for executing quantum Monte Carlo simulation of materials developed in Fortran. I developed it during my PhD
 thesis by adding new techniques for simulating solid materials. Unfortunately the code is still closed-source, which will hopefully change in the
-future. You can find some more information [here](https://people.sissa.it/~sorella/web/index.html) and [here](https://arxiv.org/abs/1606.06205).
-
-### minjob
-A very simple Python library used for monitoring threads and subprocesses and restarting them in case of critical exception. You can see the code
-on [GitHub](https://github.com/madagra/minjob).
+future. You can find some more information [here](https://people.sissa.it/~sorella/web/index.html) and [here](https://arxiv.org/abs/2002.07401).
 
 ### surfbot
 A simple trading bot developed in Python for "surfing" on the very unstable 
@@ -61,8 +58,10 @@ cryptocurrency market. The code will be released open source ASAP.
 
 ## Publications
 
+* K. Nakano, C. Attaccalite, M. Barborini, L. Capriotti, M. Casula, E. Coccia, **M. Dagrada**, C. Genovese, Y. Luo, G. Mazzola, A. Zen, S. Sorella,
+_TurboRVB: a many-body toolkit for ab initio electronic simulations by quantum Monte Carlo_, [arXiv:2002.07401](https://arxiv.org/abs/2002.07401) (2020)
 * D. dos Santos, **M. Dagrada**, E. Costante, _Leveraging Operational Technology and the Internet of Things to Attack Smart Buildings_,
-[arXiv](https://arxiv.org/abs/1912.02480) (2019)
+[arXiv:1912.02480](https://arxiv.org/abs/1912.02480) (2019)
 * M. Sergent, **M. Dagrada**, P. Carribault, J. Jaeger, M. Pérache, G. Papauré,
 _Efficient communication/computation overlap with MPI+OpenMP runtimes collaboration_,
 European Conference on Parallel Processing, 560-572 (2018)
