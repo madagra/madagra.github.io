@@ -56,6 +56,7 @@ future. You can find some more information [here](https://people.sissa.it/~sorel
 A simple trading bot developed in Python for "surfing" on the very unstable 
 cryptocurrency market. The code will be released open source ASAP.
 
+
 ## Publications
 
 * K. Nakano, C. Attaccalite, M. Barborini, L. Capriotti, M. Casula, E. Coccia, **M. Dagrada**, C. Genovese, Y. Luo, G. Mazzola, A. Zen, S. Sorella,
@@ -86,6 +87,8 @@ _Efficient communication overlap by runtimes collaboration_
 US Patent App. 16/215, 633
 
 
+## Blog posts
 
+* ML time series analysis the right way, [Medium](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): an end-to-end guide for forecasting the future with machine learning methods.
 
 
