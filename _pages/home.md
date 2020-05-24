@@ -21,6 +21,7 @@ never started projects. Occasionally I will also post some reviews or advice on 
 > -- John Naisbitt
 
 I am interested in many topics, but currently I am focusing on the following:
+* **Data engineering**, I love building efficient ETL scripts and data pipelines and achieve a seamless data ingestion from very different sources.
 * **Software architecture**, particularly for distributed applications. In my current
 [company](https://www.forescout.com) I am working hard for migrating several core components of the product
 portfolio from a monolothic design to a modern, cloud-ready architecture. 
