@@ -92,4 +92,4 @@ US Patent App. 16/215, 633
 
 * ML time series analysis the right way, [Medium](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): an end-to-end guide for forecasting the future with machine learning methods.
 
-
+* Representing Hierarchical Data in Python, [Medium](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): a simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
