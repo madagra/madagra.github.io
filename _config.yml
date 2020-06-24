@@ -19,7 +19,7 @@ minimal_mistakes_skin: "default"
 
 title                    : "Mario Dagrada"
 title_separator          : "-"
-subtitle                 : "Yet Another Personal Website"
+subtitle                 : "Mario Dagrada Personal Website"
 name : "Mario Dagrada"
 email: "mariodagrada24@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -29,6 +29,7 @@ baseurl : "/"
 twitter_username: mariolix89
 github_username: madagra
 search: "false"
+tagline: "Mario Dagrada"
 
 # Build settings
 markdown: kramdown
