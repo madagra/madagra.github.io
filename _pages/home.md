@@ -8,11 +8,10 @@ header:
 
 **Dear Internet surfer, welcome to my personal website!** 
 
-I am Mario Dagrada, a researcher, developer and technology enthusiast living in Eindhoven, The Netherlands. I am currently working as Product Innovation Lead
-at the cybersecurity firm Forescout Technologies.
+I am Mario Dagrada, a researcher, developer and technology enthusiast living in Eindhoven, The Netherlands. I am currently working as VP of Quantum Software
+at the quantum computing startup [Qu&Co](https://quandco.com/) based in Amsterdam.
 
-If you are viewing this page, it means that you probably know me or are interested in my profile or my services. Here you will find both information on my experiences and my past, current and (why not?) 
-never started projects. Occasionally I will also post some reviews or advice on books and other interesting stuff.
+If you are viewing this page, it means that you probably know me or are interested in my profile or my services. Here you will find both information on my experiences and my past, current and (why not?) never started projects. Occasionally I will also post some reviews or advice on books and other interesting stuff.
 
 
 ## Professional Interests
@@ -21,24 +20,28 @@ never started projects. Occasionally I will also post some reviews or advice on 
 > -- John Naisbitt
 
 I am interested in many topics, but currently I am focusing on the following:
-* **Data engineering**, I love building efficient ETL scripts and data pipelines and achieve a seamless data ingestion from very different sources.
-* **Software architecture**, particularly for distributed applications. In my current
-[company](https://www.forescout.com) I am working hard for migrating several core components of the product
-portfolio from a monolothic design to a modern, cloud-ready architecture. 
-* **Network security** and in particular how to leverage data mining and machine learning techniques
-for modeling and correlating security events. In a nutshell, my team and I want to make 
-security analysts' life easier.
+* **Software architecture and cloud technologies**, particularly for distributed applications. I am currently 
+designing and implementing service-oriented applications on AWS, leveraging the best available tools for container
+orchestration and infrastructure-as-a-code.
+* **Quantum Computing**, particularly applied to quantum chemistry simulations. Quantum computing is for me one of the most
+fascinating fields in technology. It combines, among other disciplines, two of my strongest passions (computer science
+and physics) and is a diverse and continuosly evolving field in both academic and private sectors. Today is the right moment
+to join the quantum computing space, but always beware of the marketing buzz.
 * **Business innovation** and design thinking methods for successfully 
 carry out innovation projects in corporate environment. Despite the wealth of information available,
 corporate innovation has always been a [challenge](https://www.sciencedirect.com/science/article/pii/S000768131400086X). 
-I am involved in defining and implementing a streamlined innovation 
-process across my organization.
+In my current role, I am applying the knowledge I acquired on corporate innovation to the much more dynamic environment
+of an early stage startup, building a product strategy and a sustainable software release and innovation pipeline.
 
-[comment]: <> (A part from the above, I also try to keep an eye on the hot topics in physics and especially the quantum Monte Carlo community I contributed to during my PhD. And of course deep learning has arrived [there](https://arxiv.org/abs/1909.02487) too.)
+<!-- **Network security** and in particular how to leverage data mining and machine learning techniques
+for modeling and correlating security events. In a nutshell, my team and I want to make 
+security analysts' life easier.
+
+(A part from the above, I also try to keep an eye on the hot topics in physics and especially the quantum Monte Carlo community I contributed to during my PhD. And of course deep learning has arrived [there](https://arxiv.org/abs/1909.02487) too.)
 
 Sometimes, I also love to brush up up my physics studies thanks to a fruitful ongoing
 collaboration with the quantum computing firm [Qu&Co](https://quandco.com/). They develop
-chemistry simulation software for quantum computers and we are building a very exciting platform, stay tuned! 
+chemistry simulation software for quantum computers and we are building a very exciting platform, stay tuned!  -->
 
 ## Some projects I contributed to
 
