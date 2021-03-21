@@ -19,19 +19,22 @@ If you are viewing this page, it means that you probably know me or are interest
 > We are drowning in information but starved for knowledge. 
 > -- John Naisbitt
 
-I am interested in many topics, but currently I am focusing on the following:
+The technology sector is a treasure trove of interesting and continuously evolving fields. I am interested in many of them, 
+but currently my focus and energies are mainly on:
+
 * **Software architecture and cloud technologies**, particularly for distributed applications. I am currently 
 designing and implementing service-oriented applications on AWS, leveraging the best available tools for container
 orchestration and infrastructure-as-a-code.
+
 * **Quantum Computing**, particularly applied to quantum chemistry simulations. Quantum computing is for me one of the most
 fascinating fields in technology. It combines, among other disciplines, two of my strongest passions (computer science
 and physics) and is a diverse and continuosly evolving field in both academic and private sectors. Today is the right moment
-to join the quantum computing space, but always beware of the marketing buzz.
-* **Business innovation** and design thinking methods for successfully 
-carry out innovation projects in corporate environment. Despite the wealth of information available,
-corporate innovation has always been a [challenge](https://www.sciencedirect.com/science/article/pii/S000768131400086X). 
-In my current role, I am applying the knowledge I acquired on corporate innovation to the much more dynamic environment
-of an early stage startup, building a product strategy and a sustainable software release and innovation pipeline.
+to join the quantum computing space, but always beware of the marketing buzz around it.
+
+* **Product management** and business innovation.
+In my current role, I am applying the knowledge I acquired during my career on corporate innovation, design thinking and
+software product management to the dynamic environment of an early stage startup at its first product release. My main goal 
+is to build, from the start, a future-proof product strategy and a sustainable software release and innovation pipeline.
 
 <!-- **Network security** and in particular how to leverage data mining and machine learning techniques
 for modeling and correlating security events. In a nutshell, my team and I want to make 
@@ -45,16 +48,27 @@ chemistry simulation software for quantum computers and we are building a very e
 
 ## Some projects I contributed to
 
-### qucochemistry
-A [open source library](https://github.com/qu-co/qucochemistry) in Python for compiling 
-and running quantum chemistry algorithms on the Rigetti's Forest computing platform. In this project, done in collaboration with [Qu&Co](https://quandco.com/), I mainly contributed to 
-the software infrastructure, unit testing
-and code refactoring. More coming soon.
+### QUBEC, the quantum computing backend for chemistry
+QUBEC is cloud platform which allows to execute chemistry simulations of molecules on the most advanced quantum computers to date. It has been developed in collaboration with
+Schrodinger, world-leader in conventional chemistry simulations, and integrates with Schrodinger's
+[Maestro](https://www.schrodinger.com/products/maestro) chemical modeling suite to offer a glimpse on what the future of quantum chemistry simulations 
+will look like! Check [here](https://quandco.com/product) to know more.
+
+I am the main contributor of QUBEC and my role is two-fold. On one hand, I develop and maintain the cloud infrastructure, test automation and client 
+APIs as well as contribute to the suite of cutting-edge quantum computing algorithms which powers QUBEC. On the other hands, I am responsible of product 
+management, feature roadmap and in general all the processes associated with the launch, improvement and vision of a deep tech product. If you want to know 
+more, please contact me at mario.dagrada@quandco.com.
+
 
 ### TurboRVB
 A very efficient and massively parallelized software package for executing quantum Monte Carlo simulation of materials developed in Fortran. I developed it during my PhD
 thesis by adding new techniques for simulating solid materials. Unfortunately the code is still closed-source, which will hopefully change in the
 future. You can find some more information [here](https://people.sissa.it/~sorella/web/index.html) and [here](https://arxiv.org/abs/2002.07401).
+
+### OpenMPI
+OpenMPI is an [open-source library](https://www.open-mpi.org/) which implements the widely used Message Passage Interface (MPI) which standardizes the 
+communications among tens of thousands of processors within the most powerful supercomputers in the world. I contributed to this project while working 
+in the Atos Bull R&D department to make the library works efficiently with a high-speed network card built in-house.
 
 ### surfbot
 A simple trading bot developed in Python for "surfing" on the very unstable 
@@ -93,6 +107,15 @@ US Patent App. 16/215, 633
 
 ## Blog posts
 
-* ML time series analysis the right way, [Medium](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): an end-to-end guide for forecasting the future with machine learning methods.
+* ML time series analysis the right way, [Towards Data Science, Medium](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): 
+An end-to-end guide for forecasting the future with machine learning methods.
 
-* Representing Hierarchical Data in Python, [Medium](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): a simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
+* Representing Hierarchical Data in Python, [Towards Data Science, Medium](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): 
+A simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
+
+* Deploy a Containerized Application on AWS with Terraform, [FAUN, Medium](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
+A step-by-step guide for deploying containerized service oriented applications on AWS. All combined with automatic infrastructure deployment using Terraform,
+the best tool out there for infrastructure-as-a-code
+
+* Private PyPi Server on AWS with Terraform, [FAUN, Medium](https://medium.com/faun/private-pypi-server-on-aws-with-terraform-1c6b9409b450): 
+Deploy a private repository for your Python packages in a few clicks on AWS using Terraform for infrastructure provisioning automation.
