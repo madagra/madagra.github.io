@@ -3,3 +3,6 @@ Gemfile*
 config_TEMPLATE.yml
 *~
 *.code-workspace
+*.bundle
+*.jekyll*
+.sass-cache

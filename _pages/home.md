@@ -3,7 +3,7 @@ layout: single
 permalink: /
 author_profile: true
 header:
-  image: /assets/images/home_header-3.jpg
+  image: /assets/images/home_header-4.jpg
 ---
 
 **Dear Internet surfer, welcome to my personal website!** 
