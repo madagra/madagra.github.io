@@ -1,21 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "aqua" 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" 
 
 title                    : "Mario Dagrada"
 title_separator          : "-"
@@ -40,11 +24,11 @@ incremental: false
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  # sass_dir: _sass
   style: compressed
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 timezone: Europe/Amsterdam
@@ -55,19 +39,17 @@ include:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Gemfile
+  - README
 
-# Plugins (previously gems:)
+keep_files:
+  - .git
+  - .svn
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -80,37 +62,43 @@ plugins:
 
 author:
   name     : "Mario Dagrada"
-  avatar   : "/assets/images/bio-photo-2.jpg"
-  bio      : "Per aspera ad astra"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Developer, engineering manager and science enthusiast"
   location : "Eindhoven, The Netherlands"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/madagra"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/MarioDagrada"
+      url: "https://github.com/madagra"      
     - label: "Linkedn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mariodagrada"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@mariodagrada"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/MarioDagrada"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/madagra"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/MarioDagrada"
+      url: "https://github.com/madagra"      
     - label: "Linkedn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mariodagrada"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@mariodagrada"      
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en"      
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/MarioDagrada"
 
 defaults:
   # _posts
