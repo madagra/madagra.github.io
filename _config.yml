@@ -19,12 +19,11 @@ tagline: "Mario Dagrada"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "\n"
 incremental: false
 
 # Sass/SCSS
 sass:
-  # sass_dir: _sass
   style: compressed
 
 # Outputting
