@@ -7,29 +7,23 @@ featured:
   - image_path: /assets/images/blog/pinn.png
     alt: "placeholder image 1"
     title: "Physics-informed neural networks"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "TODO"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"    
   - image_path: /assets/images/blog/functorch.png
     alt: "placeholder image 2"
     title: "Intro to functional PyTorch"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "TODO"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/blog/container-tf.png
     title: "Containers with AWS and Terraform"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "TODO"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-#   - image_path: /assets/images/blog/pinn.png
-#     title: "Placeholder 3"
-#     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--inverse" 
 ---
 
 Here you can find the updated list of [blogs](#posts) and scientific [publications](#scientific-publications-and-patents). If you want
@@ -41,24 +35,32 @@ to get an idea of my work, jump to the next section with some "featured" content
 
 ## Posts
 
-* ML time series analysis the right way, [Towards Data Science, Medium](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): 
+* System design
+
+* Functorch
+
+* PINNs
+
+* [ML time series analysis the right way](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): 
 An end-to-end guide for forecasting the future with machine learning methods.
 
-* Representing Hierarchical Data in Python, [Towards Data Science, Medium](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): 
+* [Representing Hierarchical Data in Python](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): 
 A simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
 
-* Deploy a Containerized Application on AWS with Terraform, [FAUN, Medium](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
-A step-by-step guide for deploying containerized service oriented applications on AWS. All combined with automatic infrastructure deployment using Terraform,
-the best tool out there for infrastructure-as-a-code
+* [Deploy a Containerized Application on AWS with Terraform](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
+A step-by-step guide for deploying containerized service oriented applications on AWS. 
+All combined with automatic infrastructure deployment using Terraform, the best tool out there for 
+infrastructure-as-a-code.
 
-* Private PyPi Server on AWS with Terraform, [FAUN, Medium](https://medium.com/faun/private-pypi-server-on-aws-with-terraform-1c6b9409b450): 
-Deploy a private repository for your Python packages in a few clicks on AWS using Terraform for infrastructure provisioning automation.
+* [Private PyPi Server on AWS with Terraform](https://medium.com/faun/private-pypi-server-on-aws-with-terraform-1c6b9409b450): 
+Deploy a private repository for your Python packages in a few clicks on AWS using Terraform for 
+infrastructure provisioning automation.
 
 ## Scientific publications and patents
 
-* qadence
-
-* harmonic
+* D. Seitz, Niklas Heim, J. P. Moutinho, R. Guichard, V. Abramavicius, A. Wennersteen, G.-J. Both, A. Quelle, C. de Groot, G. V. Velikova, V. E. Elfving, **M. Dagrada**,
+_Qadence: a differentiable interface for digital-analog programs_,
+[arXiv:2401.09915](https://arxiv.org/abs/2401.09915) (2024)
 
 * D. dos Santos, **M. Dagrada**, E. Costante, A. Manzi,
 _Framework for investigating events_,
@@ -67,6 +69,10 @@ US Patent 11,818,146 (2023)
 * K. Bidzhiev, A. Wennersteen, M. Beji, **M. Dagrada**, M. D'Arcangelo, S. Grijalva, A. C. Le Henaff, A. Quelle, A. Sashala Naik,
 _Cloud on-demand emulation of quantum dynamics with tensor networks_
 [arXiv:2302.05253](https://arxiv.org/abs/2302.05253) (2023)
+
+* A. Ghosh, Antonio A. Gentile, **M. Dagrada**, C. Lee, S.-H. Kim, H. Cha, Y. Choi, B. Kim, J.-I. Kye, V. E. Elfving,
+_Harmonic (Quantum) Neural Networks_,
+[arXiv:2212.07462](https://arxiv.org/abs/2212.07462) (2022)
 
 * K. Nakano, C. Attaccalite, M. Barborini, L. Capriotti, M. Casula, E. Coccia, **M. Dagrada**, C. Genovese, Y. Luo, G. Mazzola, A. Zen, S. Sorella,
 _TurboRVB: a many-body toolkit for ab initio electronic simulations by quantum Monte Carlo_, 

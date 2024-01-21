@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" 
+minimal_mistakes_skin: "dirt" 
 
 title                    : "Mario Dagrada"
 title_separator          : "-"
@@ -34,6 +34,12 @@ timezone: Europe/Amsterdam
 
 include:
   - _pages
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -100,17 +106,6 @@ footer:
     #   url: "https://twitter.com/MarioDagrada"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -118,4 +113,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: false
