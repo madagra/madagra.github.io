@@ -22,12 +22,12 @@ I always loved working in small companies where my work has an immediate (and me
 professional interests are:
 
 - *Scientific software development*: this combines my two main passions of programming and science, 
-especially physics. I have extensive experience in HPC, cybersecurity, and quantum computing.
-- *Engineering and product management*: I love to start, grow, and continuously improve engineering teams and do the same the
-with software products.
-- *Cloud infrastructure and distributed applications*: I have extensive experience in building 
+especially physics. I have experience in HPC, cybersecurity, and quantum computing.
+- *Engineering and product management*: I love to start, grow, and continuously improve engineering 
+teams and do the same the with software products.
+- *Cloud infrastructure and distributed applications*: I have experience in building 
 distributed systems running on public cloud, always with infrastructure-as-a-code.
-- *Machine learning*: ML is a huge field. I have extensive experience with scientific ML 
+- *Machine learning*: ML is a huge field. I have experience with scientific ML 
 and time series forecasting.
 
 You can find more details on my previous works in the [blog](projects) and [projects](projects) or my
@@ -65,7 +65,7 @@ faster and help scientists running their codes at maximum efficiency. This has a
 with Agile since I acted as Scrum Master of a team of 8 for over a year.
 
 - **Oct 2013- Oct 2016** - PhD in computational physics at Sorbonne University in Paris: simulations on high-temperature superconductors and a lot of writing, 
-both scientific papers, a long [thesis](https://hal.archives-ouvertes.fr/tel-01478313v1), but in particular highly efficient parallel 
+both scientific papers and a long [thesis](https://hal.archives-ouvertes.fr/tel-01478313v1) but especially highly efficient parallel 
 scientific software.
 
 - **Sep 2011- Sep 2013** - Master in Physics of Complex Systems from the Polytechnic University of Turin with a thesis on material simulations for fuel cells
