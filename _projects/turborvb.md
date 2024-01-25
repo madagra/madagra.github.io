@@ -10,10 +10,11 @@ header:
   teaser: /assets/images/blog/turborvb.jpg
 ---
 
-**Stack:** Fortran, C++, parallelization with MPI (distributed memory) and OpenMP (shared memory).
+**Stack:** Fortran, C++14, parallelization with MPI and OpenMP, CUDA.
 {: .notice--info}
 
-TurboRVB is a scientific software package written mainly in Fortran for performing highly 
+TurboRVB is a scientific software package written mainly in Fortran (and a bit of 
+C++) for performing highly 
 accurate and efficient simulations of molecules and solid materials from first principles, 
 which means by solving directly the Schrodinger equation describing the quantum system under study. 
 TurboRVB implements quantum Monte Carlo, a set of simulation techniques which can be 

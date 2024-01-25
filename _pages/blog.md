@@ -7,21 +7,26 @@ featured:
   - image_path: /assets/images/blog/pinn.png
     alt: "placeholder image 1"
     title: "Physics-informed neural networks"
-    excerpt: "TODO"
-    url: "#test-link"
+    excerpt: "An introduction to the exciting field of scientific machine
+    learning and, in particular, how to use neural networks for solving
+    differential equations."
+    url: "https://towardsdatascience.com/solving-differential-equations-with-neural-networks-afdcf7b8bcc4"
     btn_label: "Read More"
     btn_class: "btn--inverse"    
   - image_path: /assets/images/blog/functorch.png
     alt: "placeholder image 2"
-    title: "Intro to functional PyTorch"
-    excerpt: "TODO"
-    url: "#test-link"
+    title: "Functional PyTorch"
+    excerpt: "A hands-on introduction to the PyTorch functional API, a
+    powerful (but experimental) feature of PyTorch for writing fully
+    stateless neural network models."
+    url: "https://towardsdatascience.com/introduction-to-functional-pytorch-b5bf739e1e6e"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/blog/container-tf.png
     title: "Containers with AWS and Terraform"
-    excerpt: "TODO"
-    url: "#test-link"
+    excerpt: "A complete guide on how to run containerized applications
+    on AWS using Terraform for provisioning the infrastructure as code."
+    url: "https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
@@ -29,32 +34,33 @@ featured:
 Here you can find the updated list of [blogs](#posts) and scientific [publications](#scientific-publications-and-patents). If you want
 to get an idea of my work, jump to the next section with some "featured" content.
 
-## Get an idea
+## Featured
 
 {% include feature_row id="featured" type="left" %}
 
 ## Posts
 
-* System design
+* [A system design journey (2023)](https://medium.com/@mariodagrada/a-system-design-journey-6cf85d6c6e0d): 
 
-* Functorch
+* [A primer on functional PyTorch (2023)](https://medium.com/towards-data-science/introduction-to-functional-pytorch-b5bf739e1e6e): an introduction to the
+functional API of PyTorch, or write (almost) Jax in PyTorch.
 
-* PINNs
+* [Introduction to Physics-informed Neural Networks (2022)](https://medium.com/towards-data-science/solving-differential-equations-with-neural-networks-afdcf7b8bcc4)
 
-* [ML time series analysis the right way](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): 
-An end-to-end guide for forecasting the future with machine learning methods.
-
-* [Representing Hierarchical Data in Python](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): 
-A simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
-
-* [Deploy a Containerized Application on AWS with Terraform](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
+* [Deploy a Containerized Application on AWS with Terraform (2021)](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
 A step-by-step guide for deploying containerized service oriented applications on AWS. 
 All combined with automatic infrastructure deployment using Terraform, the best tool out there for 
 infrastructure-as-a-code.
 
-* [Private PyPi Server on AWS with Terraform](https://medium.com/faun/private-pypi-server-on-aws-with-terraform-1c6b9409b450): 
+* [Private PyPi Server on AWS with Terraform (2021)](https://medium.com/faun/private-pypi-server-on-aws-with-terraform-1c6b9409b450): 
 Deploy a private repository for your Python packages in a few clicks on AWS using Terraform for 
 infrastructure provisioning automation.
+
+* [ML time series analysis the right way (2020)](https://medium.com/@MarioDagrada/ml-time-series-forecasting-the-right-way-cbf3678845ff): 
+An end-to-end guide for forecasting the future with machine learning methods.
+
+* [Representing Hierarchical Data in Python (2020)](https://medium.com/@MarioDagrada/represent-hierarchical-data-in-python-cd36ada5c71a): 
+A simple representation for hierarchical taxonomy data and the corresponding parser implemented in Python.
 
 ## Scientific publications and patents
 

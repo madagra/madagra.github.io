@@ -11,6 +11,5 @@ export GEM_HOME=$HOME/.gem
 gem install jekyll bundler
 alias bundle=bundle3.0  # might not be needed
 bundle install
-bundle add webrick
 bundle exec jekyll serve --livereload
 ```
