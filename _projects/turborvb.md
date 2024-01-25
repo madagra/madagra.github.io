@@ -2,7 +2,7 @@
 title: "TurboRVB"
 excerpt: "[HPC] Scientific software package for performing accurate simulations of molecules and 
 materials with extreme performance and efficient parallelization."
-permalink: /docs/turborvb/
+permalink: /projects/turborvb/
 number: 1
 header:
   overlay_image: /assets/images/turborvb.jpg

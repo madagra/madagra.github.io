@@ -1,9 +1,9 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dirt" 
 
-title                    : "Mario Dagrada"
-title_separator          : "-"
-subtitle                 : "Personal Website"
+title                    : ""
+title_separator          : ""
+subtitle                 : ""
 name : "Mario Dagrada"
 email: "mariodagrada24@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -14,6 +14,7 @@ twitter_username: mariolix89
 github_username: madagra
 search: "false"
 tagline: "Mario Dagrada"
+breadcrumbs: true
 
 # Build settings
 markdown: kramdown

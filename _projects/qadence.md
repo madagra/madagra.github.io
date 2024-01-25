@@ -2,7 +2,7 @@
 title: "Qadence"
 excerpt: "[QC] Interface for building and executing quantum computing programs with a simple
 interface and automatic differentiation via the integration with PyTorch."
-permalink: /docs/qadence/
+permalink: /projects/qadence/
 number: 2
 header:
   overlay_image: /assets/images/qadence.jpg

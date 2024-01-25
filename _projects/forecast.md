@@ -2,7 +2,7 @@
 title: "Forecasting energy consumption"
 excerpt: "[ML] Apply time-series forecasting techniques for real-time
 forecasting of the energy consumption of loads in buildings and factories."
-permalink: /docs/forecast/
+permalink: /projects/forecast/
 number: 3
 header:
   overlay_image: /assets/images/forecast.jpg

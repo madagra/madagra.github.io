@@ -2,7 +2,7 @@
 title: "QUBEC"
 excerpt: "[QC] A platform on AWS for performing quantum chemistry simulations
 on quantum computers integrated with a widely used chemical modeling interface."
-permalink: /docs/qubec/
+permalink: /projects/qubec/
 number: 4
 header:
   overlay_image: /assets/images/qubec.jpg
