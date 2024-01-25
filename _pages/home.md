@@ -38,7 +38,7 @@ Google Scholar [profile](https://scholar.google.com/citations?user=7hnOB34AAAAJ&
 > Per aspera ad astra.  
 > -- The city of [Gouda](https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080) (among others)
 
-[Detailed CV in PDF](/assets/files/20200524_CV_Dagrada_bigdata.pdf)
+[Detailed CV in PDF](/assets/files/20240125_CV_Dagrada_scidev.pdf)
 
 - **Sep 2020 - Feb 2024** - Head of quantum software at [PASQAL](https://www.pasqal.com/) (quantum computing): I planned and executed the
 delivery of the first company cloud-based product. After a promotion (and an acquisition), I managed and grew up to 10 members 
