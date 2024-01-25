@@ -40,12 +40,16 @@ to get an idea of my work, jump to the next section with some "featured" content
 
 ## Posts
 
-* [A system design journey (2023)](https://medium.com/@mariodagrada/a-system-design-journey-6cf85d6c6e0d): 
+* [A system design journey (2023)](https://medium.com/@mariodagrada/a-system-design-journey-6cf85d6c6e0d): scale a simple URL
+shortener application written in Golang from a single
+machine to a distributed and highly-available version running on AWS. Part of a personal journey to improve
+system design skills.
 
 * [A primer on functional PyTorch (2023)](https://medium.com/towards-data-science/introduction-to-functional-pytorch-b5bf739e1e6e): an introduction to the
 functional API of PyTorch, or write (almost) Jax in PyTorch.
 
-* [Introduction to Physics-informed Neural Networks (2022)](https://medium.com/towards-data-science/solving-differential-equations-with-neural-networks-afdcf7b8bcc4)
+* [Introduction to Physics-informed Neural Networks (2022)](https://medium.com/towards-data-science/solving-differential-equations-with-neural-networks-afdcf7b8bcc4):
+A simple guide on how to use neural networks for solving differential equations.
 
 * [Deploy a Containerized Application on AWS with Terraform (2021)](https://medium.com/faun/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b): 
 A step-by-step guide for deploying containerized service oriented applications on AWS. 
