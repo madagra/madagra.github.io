@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Career"
-    url: /career/
-  - title: "Detailed CV"
-    url: /assets/files/20200524_CV_Dagrada_bigdata.pdf
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/

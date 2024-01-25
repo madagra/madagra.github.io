@@ -1,9 +1,15 @@
 Mario Dagrada personal website powered by Github.io
 
-### Development 
+### Develop locally
 
-```
+```shell
+# install Ruby
+sudo apt-get install ruby-dev
+export GEM_HOME=$HOME/.gem
+
+# install Jekyll and serve the site locally
 gem install jekyll bundler
-jekyll new personal-website
-bundle exec jekyll serve
+alias bundle=bundle3.0  # might not be needed
+bundle install
+bundle exec jekyll serve --livereload
 ```
