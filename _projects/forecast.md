@@ -3,10 +3,11 @@ title: "Forecasting energy consumption"
 excerpt: "[ML] Apply time-series forecasting techniques for real-time
 forecasting of the energy consumption of loads in buildings and factories."
 permalink: /docs/forecast/
-number: 2
+number: 3
 header:
-#   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: /assets/images/blog/pinn.png
+  overlay_image: /assets/images/forecast.jpg
+  show_overlay_excerpt: false
+  teaser: /assets/images/blog/forecast.jpg
 ---
 
 **Stack:** Python, scikit-learn, PyTorch

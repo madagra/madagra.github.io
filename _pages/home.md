@@ -23,8 +23,9 @@ professional interests are:
 
 - *Scientific software development*: this combines my two main passions of programming and science, 
 especially physics. I have extensive experience in HPC, cybersecurity, and quantum computing.
-- *Engineering and product management*: I love to start, grow, and continuously improve engineering teams.
-- *Cloud infrastructure and distributed applications*: I have extensive (and certified) experience in building 
+- *Engineering and product management*: I love to start, grow, and continuously improve engineering teams and do the same the
+with software products.
+- *Cloud infrastructure and distributed applications*: I have extensive experience in building 
 distributed systems running on public cloud, always with infrastructure-as-a-code.
 - *Machine learning*: ML is a huge field. I have extensive experience with scientific ML 
 and time series forecasting.
@@ -39,10 +40,14 @@ Google Scholar [profile](https://scholar.google.com/citations?user=7hnOB34AAAAJ&
 
 [Detailed CV in PDF](/assets/files/20200524_CV_Dagrada_bigdata.pdf)
 
-- **Sep 2020 - Feb 2024** - Head of Quantum Software at [PASQAL](https://www.pasqal.com/) (quantum computing): I planned and executed the
+- **Sep 2020 - Feb 2024** - Head of quantum software at [PASQAL](https://www.pasqal.com/) (quantum computing): I planned and executed the
 delivery of the first company cloud-based product. After a promotion (and an acquisition), I managed and grew up to 10 members 
 a team of scientific software developers working on cutting-edge libraries 
 for quantum computing and scientific machine learning.
+
+- **Aug 2023** - [AWS Certified Solutions Architect, Associate](https://www.linkedin.com/posts/mariodagrada_aws-certified-solutions-architect-associate-activity-7097094576456224768-YJ-G?utm_source=share&utm_medium=member_desktop): 
+AWS certification testing the knoweldge of its cloud services for building
+high available and secure applications.
 
 - **Apr 2019 - Jun 2019** - [Design-Driven Business Innovation](https://abs.uva.nl/content/open-programmes-abs/design-driven-business-innovation/design-driven-business-innovation.html) 
 at Amsterdam Business School: an intensive 3-months course which taught me how to ideate, prototype and 

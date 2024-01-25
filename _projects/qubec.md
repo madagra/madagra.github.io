@@ -3,13 +3,14 @@ title: "QUBEC"
 excerpt: "[QC] A platform on AWS for performing quantum chemistry simulations
 on quantum computers integrated with a widely used chemical modeling interface."
 permalink: /docs/qubec/
-number: 3
+number: 4
 header:
-#   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: /assets/images/blog/pinn.png
+  overlay_image: /assets/images/qubec.jpg
+  show_overlay_excerpt: false
+  teaser: /assets/images/blog/qubec.jpg
 ---
 
-**Stack:** Python, FastAPI, Terraform, AWS cloud, Auth0
+**Stack:** Python, FastAPI, Terraform, AWS cloud
 {: .notice--info}
 
 Quantum chemistry simulations are one of the most promising applications of quantum computing, as 

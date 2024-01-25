@@ -64,7 +64,8 @@ A simple representation for hierarchical taxonomy data and the corresponding par
 
 ## Scientific publications and patents
 
-* D. Seitz, Niklas Heim, J. P. Moutinho, R. Guichard, V. Abramavicius, A. Wennersteen, G.-J. Both, A. Quelle, C. de Groot, G. V. Velikova, V. E. Elfving, **M. Dagrada**,
+* D. Seitz, Niklas Heim, J. P. Moutinho, R. Guichard, V. Abramavicius, A. Wennersteen, 
+G.-J. Both, A. Quelle, C. de Groot, G. V. Velikova, V. E. Elfving, **M. Dagrada**,
 _Qadence: a differentiable interface for digital-analog programs_,
 [arXiv:2401.09915](https://arxiv.org/abs/2401.09915) (2024)
 
