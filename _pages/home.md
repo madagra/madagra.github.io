@@ -46,13 +46,13 @@ Google Scholar [profile](https://scholar.google.com/citations?user=7hnOB34AAAAJ&
 use my expertise in software architecture and development by helping several companies in building their AI infrastructure
 and overall strategy. A couple of project highlights:
 
-- [Jupi](https://jupi.co/): I built the whole AI infrastructure from scratch for Jupi, a cool SaaS product for taking decentralized
+    - [Jupi](https://jupi.co/): I built the whole AI infrastructure from scratch for Jupi, a cool SaaS product for taking decentralized
 decision within companies. I started very early in the company journey, setting up the LLM call pipelines, creating tools 
 for evaluating the quality of the prompts and perform prompt engineering, adding tools and agentic capabilities
 to the system, and (still ongoing), adding the whole memory layer to the AI agents for giving more informed answers 
 to the decision-making.
 
-- [Onderlinge](https://www.onderlinge.info/): I made a 6-months PoC for this established insurance company in the
+    - [Onderlinge](https://www.onderlinge.info/): I made a 6-months PoC for this established insurance company in the
 Netherlands. The goal was to leverage AI agents to analyze and produce
 automatically the documentation of a really large legacy codebase, written in multiple languages, and very poorly documented.
 The finaly accomplishment has been the automatic creation of a knowledge graph useful for navigating the codebase and
