@@ -69,7 +69,7 @@ plugins:
 author:
   name     : "Mario Dagrada"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "Developer and manager for scientific software"
+  bio      : "Engineering manager for scientific software"
   location : "Eindhoven, The Netherlands"
   links:
     - label: "GitHub"
