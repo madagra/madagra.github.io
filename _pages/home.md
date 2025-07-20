@@ -32,36 +32,6 @@ distributed systems running on public cloud, always using infrastructure-as-a-co
 time series forecasting, and recently I ventured into the field of AI engineering, building AI infrastructure
 leveraging large language models.
 
-The passion for technology has always been at a core of my work, and I have a few ones I especially enjoyed working with:
-
-- PyTorch (Python): by far my favorite deep learning library due to its very intuitive
-and Pythonic interface, nice and flexible differentiation engine, and super helpful community.
-It is losing some traction nowadays, maybe at some point I will switch to Jax.
-
-- Vercel AI SDK (Typescript): the best tool for AI engineering if using Typescript. The sheer amount of
-features and use cases supported can be intimidating, but once mastered it, one can basically do everything
-with AI model at a very high pace.
-
-- FastAPI (Python): the best library to build backend APIs, in my opinion. And the quality of its documentation
-is something rarely found in open-source projets.
-
-- SKtime (Python): provides a unified interface for time series analysis with excellent scikit-learn 
-integration and great extensibility. There is basically everything for time-series in here while still
-managing to keep a decent interface for the users.
-
-- Golang: the language has its downsides (so hard to build proper tests, for example), but its concurrency 
-programming model is, in my opinion, unparalleled and really makes the difference for large scale backend
-applications. And well, it powers Kubernetes, one of the largest and most contributed open-source software
-in the world.
-
-- Pulumi: enables infrastructure-as-code using familiar programming languages and a super nice developer experience
-both in the cloud and with the CLI. One needs to be particularly careful to properly organize the code, but then, unlike
-Terraform, it becomes a real pleasure to work with.
-
-- PostgreSQL: no need for explanations here, 40 years old and still going strong with really good features included
-at each new major release. Actually, later it is doing better than most other NoSQL competing solutions, and
-it is becoming more than just a database engine.
-
 You can find more details on my previous works in the [blog](projects) and [projects](projects) or my
 Google Scholar [profile](https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en).
 
@@ -122,5 +92,36 @@ with Agile since I acted as Scrum Master of a team of 8 for over a year.
 both scientific papers and a long [thesis](https://hal.archives-ouvertes.fr/tel-01478313v1) but especially highly efficient parallel 
 scientific software.
 
-- **Sep 2011- Sep 2013** - Master in Physics of Complex Systems from the Polytechnic University of Turin with a thesis on material simulations for fuel cells
-carried out in Paris.
+- **Sep 2011- Sep 2013** - Master in Physics of Complex Systems from the Polytechnic University of Turin with a thesis on material simulations for fuel cells carried out in Paris.
+
+## Some of my favourites
+
+The passion for technology has always been at a core of my work, and I have a few ones I especially enjoyed working with:
+
+- **PyTorch**: by far my favorite deep learning library due to its very intuitive
+and Pythonic interface, nice and flexible differentiation engine, and super helpful community.
+It is losing some traction nowadays, maybe at some point I will switch to Jax.
+
+- **Vercel AI SDK**: the best tool for AI engineering if using Typescript. The sheer amount of
+features and use cases supported can be intimidating, but once mastered it, one can basically do everything
+with AI model at a very high pace.
+
+- **FastAPI**: the best library to build backend APIs, in my opinion. And the quality of its documentation
+is something rarely found in open-source projets.
+
+- **SKtime**: provides a unified interface for time series analysis with excellent scikit-learn 
+integration and great extensibility. There is basically everything for time-series in here while still
+managing to keep a decent interface for the users.
+
+- **Golang**: the language has its downsides (so hard to build proper tests, for example), but its concurrency 
+programming model is, in my opinion, unparalleled and really makes the difference for large scale backend
+applications. And well, it powers Kubernetes, one of the largest and most contributed open-source software
+in the world.
+
+- **Pulumi**: enables infrastructure-as-code using familiar programming languages and a super nice developer experience
+both in the cloud and with the CLI. One needs to be particularly careful to properly organize the code, but then, unlike
+Terraform, it becomes a real pleasure to work with.
+
+- **PostgreSQL**: no need for explanations here, 40 years old and still going strong with really good features included
+at each new major release. Actually, later it is doing better than most other NoSQL competing solutions, and
+it is becoming more than just a database engine.
