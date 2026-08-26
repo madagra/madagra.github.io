@@ -1,8 +1,5 @@
-_site
-Gemfile.*
-config_TEMPLATE.yml
-*~
-*.code-workspace
-*.bundle
-*.jekyll*
-.sass-cache
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*.local
