@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <section className="hero shell">
         <div className="hero-copy">
-          <h1>Bringing deeptech software products from 0 to 1</h1>
+          <h1>Scientific software products from 0 to 1</h1>
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
           <div className="actions"><Link className="button" href="/projects">Explore projects</Link><a className="text-link" href="/assets/files/CV_Dagrada_Aug2026.pdf">Download CV</a></div>
         </div>
