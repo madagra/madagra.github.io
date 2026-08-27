@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CareerTimeline } from "@/components/career-timeline";
-import { SocialLinks } from "@/components/navigation";
+import { MediumLink, SocialLinks } from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
 import { featuredProjects } from "@/content/projects";
 
@@ -10,6 +10,7 @@ export default function HomePage() {
     <>
       <section className="hero shell">
         <div className="hero-copy">
+          <MediumLink />
           <h1>Scientific software products from 0 to 1</h1>
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
           <div className="actions"><Link className="button" href="/projects">Explore projects</Link><a className="text-link" href="/assets/files/CV_Dagrada_Aug2026.pdf">Download CV</a></div>
