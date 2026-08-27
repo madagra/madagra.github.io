@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const links = [{ href: "/", label: "Home" }, { href: "/projects", label: "Projects" }, { href: "/writing", label: "Writing" }];
+const links = [{ href: "#home", label: "Home" }, { href: "#focus-career", label: "Focus & career" }, { href: "#projects", label: "Projects" }];
 const mediumLink = { href: "https://medium.com/@mariodagrada", icon: "ci-medium" };
 const socialLinks = [
   { href: "https://github.com/madagra", label: "GitHub", icon: "ci-github" },
