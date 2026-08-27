@@ -13,3 +13,7 @@
 .nav-right { align-items: center; display: flex; } .nav-right .social-links { align-items: center; border-left: 1px solid var(--line); padding-left: 1rem; } .nav-right .social-links svg { height: 1.1rem; width: 1.1rem; }
 
 .hero { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); } .hero-photo .hero-image img { object-position: 50% 35%; } .social-links .ci, .medium-link .ci { display: block; }
+
+.hero-photo .hero-image img { object-position: 60% 35%; } .button-secondary { background: transparent; border: 1px solid var(--deep); color: var(--deep); } .button-secondary:hover { background: var(--deep); color: white; }
+
+.social-links .scholar-icon { display: block; height: 1.5rem; width: 1.5rem; }
