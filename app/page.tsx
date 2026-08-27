@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CareerTimeline } from "@/components/career-timeline";
+import { SocialLinks } from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
 import { featuredProjects } from "@/content/projects";
 
@@ -13,7 +14,7 @@ export default function HomePage() {
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
           <div className="actions"><Link className="button" href="/projects">Explore projects</Link><a className="text-link" href="/assets/files/CV_Dagrada_Aug2026.pdf">Download CV</a></div>
         </div>
-        <div className="hero-image"><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div>
+        <div className="hero-image"><div className="hero-social"><SocialLinks /></div><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div>
       </section>
 
       <section className="shell section">

@@ -8,18 +8,17 @@ const socialLinks = [
   { href: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en", label: "Google Scholar", path: "m12 3-10 5.2L12 13l8.2-4.27V15H22V8.2L12 3Zm-6.7 8.7V16c0 1.68 3 3.04 6.7 3.04s6.7-1.36 6.7-3.04v-4.3L12 15.2l-6.7-3.5Z" },
 ];
 
+export function SocialLinks() { return <div className="social-links">{socialLinks.map((link) => <a key={link.label} href={link.href} aria-label={link.label} title={link.label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={link.path} /></svg></a>)}</div>; }
+
 export function Navigation() {
   return (
     <header className="site-header">
       <nav className="shell nav">
         <div className="identity">
           <Link className="wordmark" href="/">Mario Dagrada<span>.</span></Link>
-          <div className="social-links">
-            {socialLinks.map((link) => <a key={link.label} href={link.href} aria-label={link.label} title={link.label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={link.path} /></svg></a>)}
-          </div>
+          <a className="nav-quote" href={"https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080"}>“Per aspera ad astra” <span>— Gouda</span></a>
         </div>
         <div className="nav-right">
-          <a className="nav-quote" href={"https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080"}>“Per aspera ad astra” <span>— Gouda</span></a>
           <div className="primary-links">
             {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
           </div>
