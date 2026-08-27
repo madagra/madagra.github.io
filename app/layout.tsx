@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@1.9.7/app/ci.min.css" /></head>
       <body className={`${sans.variable} ${serif.variable}`}>
         <Navigation />
         <main>{children}</main>
