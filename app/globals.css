@@ -21,3 +21,5 @@
 .focus-career { background: #f1f3ee; } .focus-section { padding: 4.5rem 0 2rem; } .focus-career .career-section { padding-top: 3.5rem; } .focus-career .three-up h2 { font-size: 1.55rem; } .focus-career .three-up p { font-size: .92rem; } @media (max-width: 760px) { .focus-section { padding: 3.5rem 0 1rem; } .focus-career .career-section { padding-top: 2.5rem; } }
 
 #home, #focus-career, #projects { min-height: calc(100svh - 75px); scroll-margin-top: 75px; } #home.hero, #projects.projects-preview { display: flex; flex-direction: column; justify-content: center; } #focus-career { display: flex; flex-direction: column; justify-content: center; } @media (max-width: 760px) { #home, #focus-career, #projects { min-height: auto; scroll-margin-top: 96px; } #home.hero, #projects.projects-preview, #focus-career { display: block; } }
+
+#home.hero { display: grid; }
