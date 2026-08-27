@@ -5,3 +5,5 @@
 .hero-image { position: relative; } .hero-social { background: rgba(255, 255, 255, .9); padding: .65rem .75rem; position: absolute; right: 1rem; top: 1rem; z-index: 2; } .hero-social .social-links { align-items: center; gap: .8rem; } .hero-social .social-links svg { height: 1.3rem; width: 1.3rem; } @media (max-width: 760px) { .hero-social { right: .75rem; top: .75rem; } }
 
 .hero-image { aspect-ratio: 1; border-radius: 50%; justify-self: center; max-width: 470px; width: 100%; } @media (max-width: 760px) { .hero-image { max-width: 300px; } }
+
+.hero-photo { align-self: center; justify-self: center; max-width: 470px; order: -1; position: relative; width: 100%; } .hero-photo .hero-image { max-width: none; } .hero-social { right: -.7rem; top: -.7rem; } @media (max-width: 760px) { .hero-photo { max-width: 300px; } .hero-social { right: -.45rem; top: -.45rem; } }
