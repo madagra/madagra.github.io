@@ -8,18 +8,19 @@ import { featuredProjects } from "@/content/projects";
 export default function HomePage() {
   return (
     <>
-      <section className="hero shell">
+      <section id="home" className="hero shell">
         <div className="hero-copy">
           <h3>Bringing scientific software products from 0 to 1</h3>
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
-          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="/projects">Explore projects</Link></div>
+          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="#projects">Projects</Link><Link className="button button-secondary" href="/writing">Writing</Link></div>
         </div>
         <div className="hero-photo"><div className="hero-image"><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div></div>
       </section>
 
-      <section className="shell section">
-        <p className="eyebrow">Focus areas</p>
-        <div className="three-up">
+      <section id="focus-career" className="focus-career">
+        <div className="shell focus-section">
+          <p className="eyebrow">Focus areas</p>
+          <div className="three-up">
           <article>
             <h2>Scientific software</h2>
             <p>From high-performance computing and quantum computing to dependable tools for researchers.</p>
@@ -33,11 +34,11 @@ export default function HomePage() {
             <p>Practical LLM systems, evaluation pipelines, agent capabilities, and cloud foundations that teams can build on.</p>
           </article>
         </div>
+        </div>
+        <CareerTimeline />
       </section>
 
-      <CareerTimeline />
-
-      <section className="shell section projects-preview">
+      <section id="projects" className="shell section projects-preview">
         <div className="section-heading"><div><p className="eyebrow">Selected work</p><h2>Projects</h2></div><Link className="text-link" href="/projects">View all projects →</Link></div>
         <div className="project-grid">{featuredProjects.slice(0, 3).map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
       </section>
