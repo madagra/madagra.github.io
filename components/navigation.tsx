@@ -18,8 +18,11 @@ export function Navigation() {
             {socialLinks.map((link) => <a key={link.label} href={link.href} aria-label={link.label} title={link.label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={link.path} /></svg></a>)}
           </div>
         </div>
-        <div className="primary-links">
-          {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
+        <div className="nav-right">
+          <a className="nav-quote" href={"https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080"}>“Per aspera ad astra” <span>— Gouda</span></a>
+          <div className="primary-links">
+            {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
+          </div>
         </div>
       </nav>
     </header>
