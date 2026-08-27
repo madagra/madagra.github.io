@@ -9,3 +9,5 @@
 .hero-photo { align-self: center; justify-self: center; max-width: 470px; order: -1; position: relative; width: 100%; } .hero-photo .hero-image { max-width: none; } .hero-social { right: -.7rem; top: -.7rem; } @media (max-width: 760px) { .hero-photo { max-width: 300px; } .hero-social { right: -.45rem; top: -.45rem; } }
 
 .medium-link { align-items: center; color: var(--muted); display: inline-flex; font-size: .78rem; font-weight: 700; gap: .4rem; letter-spacing: .06em; margin-bottom: 1rem; text-transform: uppercase; } .medium-link svg { fill: currentColor; height: 1rem; width: 1rem; } .medium-link:hover { color: var(--accent); } .linkedin-icon svg { fill: #0a66c2; }
+
+.nav-right { align-items: center; display: flex; } .nav-right .social-links { align-items: center; border-left: 1px solid var(--line); padding-left: 1rem; } .nav-right .social-links svg { height: 1.1rem; width: 1.1rem; }

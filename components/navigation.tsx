@@ -24,6 +24,7 @@ export function Navigation() {
           <div className="primary-links">
             {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
           </div>
+          <SocialLinks />
         </div>
       </nav>
     </header>
