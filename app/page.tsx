@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="hero-copy">
           <h3>Bringing scientific software products from 0 to 1</h3>
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
-          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="#projects">Projects</Link><Link className="button button-secondary" href="/writing">Writing</Link></div>
+          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="/projects">Projects</Link><Link className="button button-secondary" href="/writing">Writing</Link></div>
         </div>
         <div className="hero-photo"><div className="hero-image"><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div></div>
       </section>
@@ -22,8 +22,8 @@ export default function HomePage() {
           <p className="eyebrow">Focus areas</p>
           <div className="three-up">
           <article>
-            <h2>Scientific software</h2>
-            <p>From high-performance computing and quantum computing to dependable tools for researchers.</p>
+            <h2>Engineering Leadership</h2>
+            <p>Grow engineering and research teams with a building-orie</p>
           </article>
           <article>
             <h2>Engineering leadership</h2>
