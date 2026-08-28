@@ -4,6 +4,7 @@ import { CareerTimeline } from "@/components/career-timeline";
 import { MediumLink } from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
 import { featuredProjects } from "@/content/projects";
+import { selectedWriting } from "@/content/writing";
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
         <div className="hero-copy">
           <h3>Bringing scientific software products from 0 to 1</h3>
           <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
-          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="/projects">Projects</Link><Link className="button button-secondary" href="/writing">Writing</Link></div>
+          <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="#projects">Selected Projects</Link><Link className="button button-secondary" href="#writing">Selected Writing</Link></div>
         </div>
         <div className="hero-photo"><div className="hero-image"><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div></div>
       </section>
@@ -40,7 +41,12 @@ export default function HomePage() {
 
       <section id="projects" className="shell section projects-preview">
         <div className="section-heading"><div><p className="eyebrow">Selected work</p><h2>Projects</h2></div><Link className="text-link" href="/projects">View all projects →</Link></div>
-        <div className="project-grid">{featuredProjects.slice(0, 3).map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
+        <div className="project-grid">{featuredProjects.map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
+      </section>
+
+      <section id="writing" className="shell section writing-preview">
+        <div className="section-heading"><div><p className="eyebrow">Selected writing</p><h2>Writing</h2></div><Link className="text-link" href="/writing">View all writing →</Link></div>
+        <div className="article-list">{selectedWriting.map((item) => <a key={item.title} href={item.href}><div><h3>{item.title}</h3><p>{item.description}</p></div><b>↗</b></a>)}</div>
       </section>
     </>
   );
