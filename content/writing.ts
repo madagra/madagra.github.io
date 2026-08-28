@@ -22,3 +22,10 @@ export const publications = [
   { year: "2014", title: "Quantum Monte Carlo study of the protonated water dimer", citation: "M. Dagrada et al. · Journal of Chemical Theory and Computation 10, 1980–1993", href: "https://doi.org/10.1021/ct401077x" },
   { year: "2012", title: "Entanglement-assisted calibration of a photon number resolving detector", citation: "F. Piacentini et al., including M. Dagrada · QELS conference", href: "https://doi.org/10.1364/QELS.2012.QTh1B.7" },
 ];
+
+
+export const selectedWriting = [
+  { title: "Introduction to Physics-informed Neural Networks", description: "A practical introduction to using neural networks to solve differential equations by incorporating physical constraints.", href: "https://medium.com/towards-data-science/solving-differential-equations-with-neural-networks-afdcf7b8bcc4" },
+  { title: "Harmonic (Quantum) Neural Networks", description: "Research on quantum-inspired neural-network architectures built around harmonic structure and symmetry.", href: "https://arxiv.org/abs/2212.07462" },
+  { title: "Efficient communication overlap by runtimes collaboration", description: "A patent covering runtime collaboration techniques that overlap communication and computation in parallel systems.", href: "https://patents.google.com/patent/EP3502897A1/en" },
+];
