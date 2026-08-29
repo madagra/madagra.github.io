@@ -44,9 +44,11 @@ export default function HomePage() {
         <div className="project-grid">{featuredProjects.map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
       </section>
 
-      <section id="writing" className="shell section writing-preview">
-        <div className="section-heading"><div><p className="eyebrow">Selected writing</p><h2>Writing</h2></div><Link className="text-link" href="/writing">View all writing →</Link></div>
-        <div className="article-list">{selectedWriting.map((item) => <a key={item.title} href={item.href}><div><h3>{item.title}</h3><p>{item.description}</p></div><b>↗</b></a>)}</div>
+      <section id="writing" className="writing-preview">
+        <div className="shell section">
+          <div className="section-heading"><div><p className="eyebrow">Selected writing</p><h2>Writing</h2></div><Link className="text-link" href="/writing">View all writing →</Link></div>
+          <div className="selected-writing-grid">{selectedWriting.map((item, index) => <a className="writing-card" key={item.title} href={item.href}><span className="writing-index">0{index + 1}</span><div><h3>{item.title}</h3><p>{item.description}</p></div><b>↗</b></a>)}</div>
+        </div>
       </section>
     </>
   );

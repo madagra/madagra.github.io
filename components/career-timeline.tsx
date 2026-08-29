@@ -10,7 +10,7 @@ const milestones = [
 export function CareerTimeline() {
   return (
     <section className="shell career-section" aria-labelledby="career-heading">
-      <div className="section-heading"><div><p className="eyebrow">Career at a glance</p><h2 id="career-heading">Career so far</h2></div><a className="button" href="/assets/files/CV_Dagrada_Aug2026.pdf">Download CV</a></div>
+      <div className="section-heading"><div><p className="eyebrow">Career at a glance</p><h2 id="career-heading">Career so far</h2></div><a className="text-link" href="/assets/files/CV_Dagrada_Aug2026.pdf">Download CV</a></div>
       <ol className="timeline">
         {milestones.map((milestone) => <li key={milestone.period}><p className="timeline-period">{milestone.period}</p><div className="timeline-dot" /><article><p className="timeline-company">{milestone.company}</p><h3>{milestone.role}</h3><p>{milestone.detail}</p></article></li>)}
       </ol>
