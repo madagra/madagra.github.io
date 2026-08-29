@@ -11,8 +11,10 @@ export default function HomePage() {
     <>
       <section id="home" className="hero shell">
         <div className="hero-copy">
-          <h3>Bringing scientific software products from 0 to 1</h3>
-          <p className="lede">I am Mario Dagrada, an engineering leader, developer, and technology passionate living in the Netherlands.</p>
+          <h3>Bringing scientific SW products from 0 to 1</h3>
+          <p className="lede">I am Mario Dagrada, an engineering leader with 10+ years of experience in scientific and
+            AI-powered software products. I speak both the engineering and science languages and love building, 
+            especially if it involves translating difficult scientific workflows into revenue-generating applications.</p>
           <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="#projects">Selected Projects</Link><Link className="button button-secondary" href="#writing">Selected Writing</Link></div>
         </div>
         <div className="hero-photo"><div className="hero-image"><Image src="/assets/images/bio-photo.jpg" alt="Mario Dagrada" width={600} height={600} priority /></div></div>
@@ -24,15 +26,15 @@ export default function HomePage() {
           <div className="three-up">
           <article>
             <h2>Engineering Leadership</h2>
-            <p>Grow engineering and research teams with a building-orie</p>
+            <p>Grow engineering and research teams with a building-oriented culture and strong alignment with business goals.</p>
           </article>
           <article>
-            <h2>Engineering leadership</h2>
-            <p>Growing capable teams, shaping product direction, and turning ambitious technical work into durable systems.</p>
+            <h2>Product Engineering</h2>
+            <p>Translate complex scientific workflows (mostly ML-based) into delightful and usable software products.</p>
           </article>
           <article>
             <h2>AI infrastructure</h2>
-            <p>Practical LLM systems, evaluation pipelines, agent capabilities, and cloud foundations that teams can build on.</p>
+            <p>Focus on HPC, distributed training systems, and LLM agentic pipelines.</p>
           </article>
         </div>
         </div>
