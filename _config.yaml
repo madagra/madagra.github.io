@@ -1,0 +1,6 @@
+# _config.yml
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
