@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Source_Serif_4 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/footer";
 import { Navigation } from "@/components/navigation";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
