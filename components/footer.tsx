@@ -1,2 +1,5 @@
-const links = [{ href: "https://github.com/madagra", label: "GitHub" }, { href: "https://www.linkedin.com/in/mariodagrada", label: "LinkedIn" }, { href: "https://medium.com/@mariodagrada", label: "Medium" }, { href: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en", label: "Google Scholar" }];
-export function Footer() { return <footer><div className="shell footer"><span>© {new Date().getFullYear()} Mario Dagrada</span><div>{links.map((link) => <a key={link.label} href={link.href}>{link.label}</a>)}</div></div></footer>; }
+import { SocialLinks } from "@/components/navigation";
+
+export function Footer() {
+  return <footer><div className="shell footer"><span>© {new Date().getFullYear()} Mario Dagrada</span><SocialLinks /></div></footer>;
+}
