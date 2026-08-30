@@ -17,7 +17,7 @@ export default function HomePage() {
     <>
       <section id="home" className="hero shell">
         <div className="hero-copy">
-          <h3>Bringing scientific SW products from 0 to 1</h3>
+          <h3>Scientific software products from 0 to 1</h3>
           <p className="lede">I am Mario Dagrada, an engineering leader with 10+ years of experience in scientific and
             AI-powered software products. 
             <br/>
