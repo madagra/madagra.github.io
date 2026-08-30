@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const links = [{ href: "/#home", label: "Home" }, { href: "/#focus-career", label: "Career" }, { href: "/projects", label: "Projects" }, { href: "/writing", label: "Writing" }];
 const mediumLink = { href: "https://medium.com/@mariodagrada", icon: "ci-medium" };
@@ -10,21 +13,32 @@ const socialLinks = [
   { href: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en", label: "Google Scholar", image: "/assets/images/google-scholar.png" },
 ];
 
-export function MediumLink() { return <a className="medium-link" href={mediumLink.href}><i className={"ci " + mediumLink.icon + " ci-lg"} aria-hidden="true" /><span>Medium</span></a>; }
+export function MediumLink() {
+  return <a className="medium-link" href={mediumLink.href}><i className={"ci " + mediumLink.icon + " ci-lg"} aria-hidden="true" /><span>Medium</span></a>;
+}
 
-export function SocialLinks() { return <div className="social-links">{socialLinks.map((link) => <a key={link.label} href={link.href} aria-label={link.label} title={link.label}>{link.image ? <Image className="scholar-icon" src={link.image} alt="" width={24} height={24} /> : <i className={"ci " + link.icon + " ci-xl"} aria-hidden="true" />}</a>)}</div>; }
+export function SocialLinks() {
+  return <div className="social-links">{socialLinks.map((link) => <a key={link.label} href={link.href} aria-label={link.label} title={link.label}>{link.image ? <Image className="scholar-icon" src={link.image} alt="" width={24} height={24} /> : <i className={"ci " + link.icon + " ci-xl"} aria-hidden="true" />}</a>)}</div>;
+}
 
 export function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <header className="site-header">
-      <nav className="shell nav">
+      <nav className="shell nav" aria-label="Main navigation">
         <div className="identity">
-          <Link className="wordmark" href="/">Mario Dagrada<span>.</span></Link>
-          <a className="nav-quote" href={"https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080"}>“Per aspera ad astra” <span>— Gouda</span></a>
+          <Link className="wordmark" href="/" onClick={closeMenu}>Mario Dagrada<span>.</span></Link>
+          <a className="nav-quote" href="https://web.archive.org/web/20210624221231/https://www.therightproductions.nl/hogeraadvanadel/index.php?id=109&wapen=1080">“Per aspera ad astra” <span>— Gouda</span></a>
         </div>
-        <div className="nav-right">
+        <button className="nav-mobile-toggle" type="button" aria-expanded={isOpen} aria-controls="mobile-navigation" onClick={() => setIsOpen((open) => !open)}>
+          <span className="sr-only">{isOpen ? "Close navigation" : "Open navigation"}</span>
+          <span className="menu-icon" aria-hidden="true"><span /><span /><span /></span>
+        </button>
+        <div id="mobile-navigation" className={"nav-right" + (isOpen ? " is-open" : "")}>
           <div className="primary-links">
-            {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
+            {links.map((link) => <Link key={link.href} href={link.href} onClick={closeMenu}>{link.label}</Link>)}
           </div>
           <SocialLinks />
         </div>
