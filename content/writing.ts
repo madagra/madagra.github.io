@@ -28,4 +28,5 @@ export const selectedWriting = [
   { title: "Introduction to Physics-informed Neural Networks", description: "A practical introduction to using neural networks to solve differential equations by incorporating physical constraints.", href: "https://medium.com/towards-data-science/solving-differential-equations-with-neural-networks-afdcf7b8bcc4" },
   { title: "Harmonic (Quantum) Neural Networks", description: "Research on quantum-inspired neural-network architectures built around harmonic structure and symmetry.", href: "https://arxiv.org/abs/2212.07462" },
   { title: "Efficient communication overlap by runtimes collaboration", description: "A patent covering runtime collaboration techniques that overlap communication and computation in parallel systems.", href: "https://patents.google.com/patent/EP3502897A1/en" },
+  ...articles,
 ];

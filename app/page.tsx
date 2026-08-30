@@ -3,17 +3,26 @@ import Link from "next/link";
 import { CareerTimeline } from "@/components/career-timeline";
 import { MediumLink } from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
-import { featuredProjects } from "@/content/projects";
+import { selectDaily } from "@/content/daily-selection";
+import { projects } from "@/content/projects";
 import { selectedWriting } from "@/content/writing";
 
+export const dynamic = "force-dynamic";
+
 export default function HomePage() {
+  const dailyProjects = selectDaily(projects, 3, "projects");
+  const dailyWriting = selectDaily(selectedWriting, 3, "writing");
+
   return (
     <>
       <section id="home" className="hero shell">
         <div className="hero-copy">
           <h3>Bringing scientific SW products from 0 to 1</h3>
           <p className="lede">I am Mario Dagrada, an engineering leader with 10+ years of experience in scientific and
-            AI-powered software products. I speak both the engineering and science languages and love building, 
+            AI-powered software products. 
+            <br/>
+            <br/>
+            I speak both the engineering and science languages and love building, 
             especially if it involves translating difficult scientific workflows into revenue-generating applications.</p>
           <div className="actions"><Link className="button" href="#career-heading">Career</Link><Link className="button button-secondary" href="#projects">Selected Projects</Link><Link className="button button-secondary" href="#writing">Selected Writing</Link></div>
         </div>
@@ -43,13 +52,13 @@ export default function HomePage() {
 
       <section id="projects" className="shell section projects-preview">
         <div className="section-heading"><div><p className="eyebrow">Selected work</p><h2>Projects</h2></div><Link className="text-link" href="/projects">View all projects →</Link></div>
-        <div className="project-grid">{featuredProjects.map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
+        <div className="project-grid">{dailyProjects.map((project) => <ProjectCard key={project.slug} project={project} />)}</div>
       </section>
 
       <section id="writing" className="writing-preview">
         <div className="shell section">
           <div className="section-heading"><div><p className="eyebrow">Selected writing</p><h2>Writing</h2></div><Link className="text-link" href="/writing">View all writing →</Link></div>
-          <div className="selected-writing-grid">{selectedWriting.map((item, index) => <a className="writing-card" key={item.title} href={item.href}><span className="writing-index">0{index + 1}</span><div><h3>{item.title}</h3><p>{item.description}</p></div><b>↗</b></a>)}</div>
+          <div className="selected-writing-grid">{dailyWriting.map((item, index) => <a className="writing-card" key={item.title} href={item.href}><span className="writing-index">0{index + 1}</span><div><h3>{item.title}</h3><p>{item.description}</p></div><b>↗</b></a>)}</div>
         </div>
       </section>
     </>
