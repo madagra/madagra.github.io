@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CareerTimeline } from "@/components/career-timeline";
-import { MediumLink } from "@/components/navigation";
+import { SubstackLink } from "@/components/navigation";
 import { ProjectCard } from "@/components/project-card";
 import { selectDaily } from "@/content/daily-selection";
 import { projects } from "@/content/projects";

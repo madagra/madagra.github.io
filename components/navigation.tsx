@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const links = [{ href: "/#home", label: "Home" }, { href: "/#focus-career", label: "Career" }, { href: "/projects", label: "Projects" }, { href: "/writing", label: "Writing" }];
-const mediumLink = { href: "https://medium.com/@mariodagrada", icon: "ci-medium" };
+const substackLink = { href: "https://madagra.substack.com/" };
 const socialLinks = [
   { href: "https://github.com/madagra", label: "GitHub", icon: "ci-github", darkIcon: "ci-github-light" },
   { href: "https://www.linkedin.com/in/mariodagrada", label: "LinkedIn", icon: "ci-linkedin" },
@@ -13,8 +13,8 @@ const socialLinks = [
   { href: "https://scholar.google.com/citations?user=7hnOB34AAAAJ&hl=en", label: "Google Scholar", image: "/assets/images/google-scholar.png" },
 ];
 
-export function MediumLink() {
-  return <a className="medium-link" href={mediumLink.href}><i className={"ci " + mediumLink.icon + " ci-lg"} aria-hidden="true" /><span>Medium</span></a>;
+export function SubstackLink() {
+  return <a className="substack-link" href={substackLink.href}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" /></svg><span>Substack</span></a>;
 }
 
 export function SocialLinks() {
