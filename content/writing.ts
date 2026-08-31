@@ -1,8 +1,14 @@
 export const articles = [
+  { year: "2024", title: "Sequences, Time Series and Prediction course in PyTorch", description: "Reworking the DeepLearning.ai course exercises from TensorFlow to PyTorch.", href: "https://madagra.substack.com/p/sequences-time-series-and-prediction-course-in-pytorch-167ba8591fe3" },
+  { year: "2024", title: "Hands-on Introduction to Concurrency in Go", description: "Goroutines and channels explained by building a simple client-server chat.", href: "https://madagra.substack.com/p/hands-on-introduction-to-concurrency-in-go-ed2d5bf90112" },
   { year: "2023", title: "A system design journey", description: "Scaling a simple Go URL shortener into a distributed, highly available system on AWS.", href: "https://madagra.substack.com/p/a-system-design-journey-6cf85d6c6e0d" },
-  { year: "2023", title: "A primer on functional PyTorch", description: "A practical introduction to the PyTorch functional API.", href: "https://madagra.substack.com/p/introduction-to-functional-pytorch-b5bf739e1e6e" },
-  { year: "2022", title: "Introduction to Physics-informed Neural Networks", description: "Using neural networks to solve differential equations.", href: "https://madagra.substack.com/p/solving-differential-equations-with-neural-networks-afdcf7b8bcc4" },
+  { year: "2023", title: "A primer on functional PyTorch", description: "Writing Jax-style, functional PyTorch models with the functional API.", href: "https://madagra.substack.com/p/introduction-to-functional-pytorch-b5bf739e1e6e" },
+  { year: "2022", title: "Introduction to Physics-informed Neural Networks", description: "A hands-on PyTorch tutorial on using neural networks to solve differential equations.", href: "https://madagra.substack.com/p/solving-differential-equations-with-neural-networks-afdcf7b8bcc4" },
+  { year: "2021", title: "Database backup using AWS Lambda", description: "Automating a recurring database backup with a scheduled Lambda function.", href: "https://madagra.substack.com/p/database-backup-using-aws-lambda-d5d331591c40" },
+  { year: "2021", title: "Private PyPI Server on AWS with Terraform", description: "Standing up a private Python package registry on AWS with infrastructure as code.", href: "https://madagra.substack.com/p/private-pypi-server-on-aws-with-terraform-1c6b9409b450" },
   { year: "2021", title: "Deploy a containerized application on AWS with Terraform", description: "A step-by-step guide to service-oriented deployment and infrastructure as code.", href: "https://madagra.substack.com/p/deploy-a-containerized-application-on-aws-with-terraform-bf929bb3bb6b" },
+  { year: "2020", title: "Represent Hierarchical Data in Python", description: "Parsing and working with tree-structured JSON using the anytree library.", href: "https://madagra.substack.com/p/represent-hierarchical-data-in-python-cd36ada5c71a" },
+  { year: "2020", title: "ML time series forecasting the right way", description: "An end-to-end guide to forecasting with machine learning, done properly.", href: "https://madagra.substack.com/p/ml-time-series-forecasting-the-right-way-cbf3678845ff" },
 ];
 
 
