@@ -1,2 +1,7 @@
 allowBuilds:
   unrs-resolver: true
+
+overrides:
+  brace-expansion@1: 1.1.21
+  js-yaml@4: 4.3.2
+  source-map-js@1: 1.2.2
